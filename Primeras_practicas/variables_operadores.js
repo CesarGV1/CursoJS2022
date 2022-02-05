@@ -73,3 +73,38 @@ console.log(var2 != '3');
 console.log(var2 != '5');
 
 //Operadores logicos
+console.log ('############################   AND  ')
+//AND
+
+console.log( true && true)
+console.log( true && false)
+console.log(false && false)
+console.log(false && (3 ==4))
+console.log('gato' && 'perro')  //Tarea: Investigar 
+console.log(false && 'gato')
+console.log('gato' && false)
+console.log('gato' && true)
+
+console.log ('############################   OR ')
+//OR
+var compara1=true || true
+
+console.log(true || true)
+console.log( false || true)
+console.log(true || false)
+console.log(false || false)
+console.log(false || (3==4))
+console.log('gato' || 'perro')  //Tarea
+console.log(false || 'gato')
+console.log('gato' || false)
+console.log('gato' || true)
+
+console.log ('############################   NOT ')
+//NOT
+
+console.log(!true)
+console.log(!false)
+console.log(!'gato')
+
+//Pendiente despues de tarea
+console.log('gato' || false && !true || 'perro')
