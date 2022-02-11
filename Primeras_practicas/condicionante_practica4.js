@@ -13,7 +13,7 @@ if (texto == 'Servidor OFF'){
 
 
 //¿Qué hace esto?
-/*
+time = 12;
 if (time < 10) {
     greeting = "Good morning";
   } else if (time < 20) {
@@ -21,34 +21,51 @@ if (time < 10) {
   } else {
     greeting = "Good evening";
   }
-
-  if (last=0){
-      if (variable =5){
-          variable2 = 7
+  console.log(greeting);
+  
+  var last=0;
+  var variable=5;
+  if (last==0){
+      if (variable ==5){
+          variable2 = 7;
       }
   }
+  console.log(variable2);
 
-if( num <= num2 && foo > BarProp){
-        num = 8
+
+var num = 3;
+var num2= 5;
+let foo = 'String'
+let BarProp = 'char'
+if( num <= num2 && foo.length > BarProp.length){
+        num = 8;
   }
+console.log(num);
 
+/*Repetida 
 if(num <= num2 || foo > BarProp){
     num = 8
 }
+*/
+
+
 
 if(true){
-    num = 8
+    num = 8;
 }
+console.log(num);
 
-var notTrue =  false
+var notTrue =  false;
 if(notTrue){
-    num = 8
+    num = 166;
 }
+console.log(num);
 
 if(!notTrue){
-    num = 8
+    num = 34;
 }
-*/
+console.log(num);
+
 
 // Switch
 
@@ -112,14 +129,18 @@ switch (true) {
 
 
 //Ejercicio avanzado = Ordenar un arreglo con burbuja
-var array1 =[1,111,2,23,4,1,26,300,1,8,5,19,3];
-for(var x=0; x<array1.length;x++){
-for(var i = 0; i<array1.length; i++){
-    if(array1[i] >= array1[i+1]){
-        temp = array1[i+1]
-        array1[i+1] = array1[i]
-        array1[i] = temp
+var array1 =[3,61,15,1,111,2,23,4,1,500,26,300,1,8,5,19,0];
+
+for(var x=0; x<array1.length;x++)
+{
+    for(var i = 0; i<array1.length; i++)
+    {
+        if(array1[i] >= array1[i+1])
+        {
+            temp = array1[i+1]
+            array1[i+1] = array1[i]
+            array1[i] = temp
+        }
     }
-}
 }
 console.log(array1);
