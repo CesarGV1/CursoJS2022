@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "name": "pruebas_en_jest",
+  "version": "1.0.0",
+  "description": "primeras pruebas usando jest",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Cesar Guzman",
+  "license": "ISC"
+}
