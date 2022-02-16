@@ -104,11 +104,13 @@ console.log(theTreeCompany('Cesar'));
 //Opcionales **
 
 //TAREA: Palindromo "ana", "oso", "casa"
-var palabra = 'uwu';
+var palabra = 545;
 
 function isAPalindrome(palabra){
     var cadena2='';
-    for(var i = palabra.length; i>=0;i--){
+    palabra = palabra.toString()
+    console.log(typeof palabra);
+    for(var i = palabra.length-1; i>=0;i--){
         cadena2 += palabra.charAt(i);
     }
     if(cadena2.toLowerCase() === palabra.toLowerCase()){
@@ -165,3 +167,5 @@ function decir(palabra){
 }
 
 //ejecutar(decir,'hola');
+
+//Arrow functions
